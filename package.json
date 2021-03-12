@@ -6,10 +6,8 @@
   "scripts": {
     "start": "npm run build && node build/server.js",
     "start:dev": "nodemon",
-    "buid": "rimraf ./build && tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "seed:breeds": "ts-node ./seed/pets-fill.ts",
-    "seed:breed": "ts-node ./seed/petUpdate.ts"
+    "build": "rimraf ./build && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
